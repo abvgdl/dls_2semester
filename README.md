@@ -1,4 +1,4 @@
-# Machine Learning Homeworks — MIPT DLS 2st Semester (Nature language proccesing)
+# Machine Learning Homeworks — MIPT DLS 2st Semester (Natural language processing)
 
 Репозиторий содержит домашние задания курса **Deep Learning School (МФТИ)** за 2 семестр: задачи по **NLP** и **LLM**.
 
