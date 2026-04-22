@@ -13,6 +13,7 @@
 | `hw1_simple_embeddings.ipynb` | Семантическая близость и ранжирование текстов на основе эмбеддингов | Word Embeddings (Gensim), усреднение векторов предложений, cosine similarity, Learning-to-Rank метрики (DCG/NDCG/Hits) |
 | `hw2_text_classification.ipynb` | Нейросетевая классификация текстов (sentiment/topic classification) | PyTorch, tokenization, RNN/GRU/LSTM, multi-layer recurrent architectures, Adam optimizer, accuracy evaluation |
 | `hw3_language_modelling.ipynb` | Обучение языковой модели и сравнение экспериментов по перплексии | Word-level language modeling, PyTorch, DataLoader pipeline, training loop/evaluate loop, perplexity, экспериментальный анализ архитектур |
+| `hw4_attention_and_transformers.ipynb` | Механизмы внимания и архитектура Transformer для NLP-задач | Attention, Self-Attention, Positional Encoding, Transformer blocks, masked attention, sequence modeling, attention map analysis |
 | `README.md` | Описание репозитория, структуры и используемого стека | Markdown |
 
 ## Итоговые метрики
@@ -22,4 +23,4 @@
 | `hw1_simple_embeddings.ipynb` | **DCG@1 = 0.414**, **Hits@1 = 0.414** | Лучший результат среди показанных вариантов ранжирования в ноутбуке |
 | `hw2_text_classification.ipynb` | **Accuracy = 91.90%** | Лучший зафиксированный результат в логах обучения |
 | `hw3_language_modelling.ipynb` | **Eval Perplexity = 95.20** | Минимальная валидационная перплексия среди проведённых экспериментов |
-
+| `hw4_attention_and_transformers.ipynb` | **Cross-Entropy Loss = 0.69** | Результат полученный __MathBert__ с размороженным backbone  |
